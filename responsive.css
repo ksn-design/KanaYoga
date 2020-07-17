@@ -1,0 +1,18 @@
+/* max-widthのときは大きい順に
+　min-widthのときは小さい順に */
+
+@media (max-width:500px) {
+  .sub-title{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width:380px) {
+  .main-title{
+    font-size: 40px;
+  }
+  .sub-title {
+    font-size: 19px;
+  }
+}
