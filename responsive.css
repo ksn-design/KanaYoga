@@ -18,9 +18,11 @@
     font-size: 17px;
   }
 }
-
 @media (max-width:350px) {
-  .sub-title{
-    font-size:15px;
+  .main-title{
+    font-size: 40px;
+  }
+  .sub-title {
+    font-size: 15px;
   }
 }
