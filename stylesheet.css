@@ -26,13 +26,21 @@ body{
   width:100%;
   position: fixed;
 }
-
 .header-right{
   float: right;
   padding: 0 10px;
   line-height: 60px;
   margin-right: 20px;
   background:rgba(70,70,75,0.8);
+  cursor:pointer;
+}
+#box{
+  transition: 0.8s;
+}
+.circle{
+  background:pink;
+  border-radius: 50%;
+  transform: rotate(360deg);
 }
 .menu{
   color: rgb(150,150,150);
