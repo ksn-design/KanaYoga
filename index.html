@@ -16,7 +16,7 @@
   <body>
     <div class="main-wrapper">
         <div class="header">
-          <div class="header-right">
+          <div class="header-right" id="box">
             <p class="menu">MENU</p>
           </div>
         </div>
@@ -34,7 +34,7 @@
     </div>
     <div class="sub-wrapper">
       <div class="container">
-        <h1 class="sub-title">Yoga with beautiful instructor "Kana"</h1>
+        <h1 class="sub-title">Yoga with beatiful instructor "Kana"</h1>
       </div>
     </div>
     <div class="sub-img">
@@ -78,5 +78,15 @@
         </ul>
       </div>
     </div>
+    <script>
+      'use strict';
+
+      document.getElementById('box').addEventListener('click', ()=>{
+        // document.getElementById('box').style.background = 'rgb(80,80,100)';
+        // document.getElementById('box').style.borderRadius = '50%';
+        document.getElementById('box').classList.toggle('circle');
+      });
+
+    </script>
   </body>
 </html>
